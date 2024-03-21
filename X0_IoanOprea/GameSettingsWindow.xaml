@@ -1,0 +1,13 @@
+﻿<Window x:Class="X0_IoanOprea.GameSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Game Settings" Height="200" Width="300">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBox x:Name="txtPlayerName" Text="Your Name" Margin="0 0 0 10"/>
+            <RadioButton Content="X" x:Name="rbX" IsChecked="True" Margin="0 0 0 10"/>
+            <RadioButton Content="0" x:Name="rb0" Margin="0 0 0 10"/>
+            <Button Content="Start Game" Click="StartGame_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
